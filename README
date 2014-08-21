@@ -16,5 +16,5 @@
 
 var myPopover = new Popover({header: '#my-popover > .header',
     content: '#my-popover > .content'});
-$("#my-popover").bind("click", function(){myPopover.showPopover($(#my-button"));});
+$("#my-popover").bind("click", function(){myPopover.showPopover($("#my-button"));});
 
